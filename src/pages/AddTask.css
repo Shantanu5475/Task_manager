@@ -1,0 +1,102 @@
+/* Add Task Page */
+.add-task-page {
+  padding: 20px;
+  max-width: 800px; /* Set max-width to prevent form from becoming too wide */
+  margin: 0 auto; /* Center the form */
+}
+
+.add-task-page h1 {
+  font-size: 2rem;
+  color: #0747a6;
+  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+}
+
+/* Task Form */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Form Elements Styling */
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.task-form input:focus,
+.task-form textarea:focus,
+.task-form select:focus {
+  border-color: #0747a6; /* Highlight border on focus */
+}
+
+.task-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.task-form button {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.task-form button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .add-task-page {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  .task-form input,
+  .task-form textarea,
+  .task-form select,
+  .task-form button {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .task-form button {
+    font-size: 1rem; /* Make button text larger for easier tapping */
+  }
+
+  .task-form textarea {
+    min-height: 120px; /* Adjust textarea size for better usability */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .add-task-page {
+    padding: 10px; /* Even smaller padding */
+  }
+
+  .task-form input,
+  .task-form textarea,
+  .task-form select,
+  .task-form button {
+    font-size: 0.85rem; /* Further reduce font size */
+    padding: 6px; /* Smaller padding */
+  }
+
+  .task-form textarea {
+    min-height: 140px; /* Adjust for smaller screens */
+  }
+
+  .task-form button {
+    font-size: 0.9rem; /* Slightly smaller button text */
+  }
+}

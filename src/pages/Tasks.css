@@ -1,0 +1,83 @@
+/* Tasks Page */
+.tasks-page {
+  padding: 20px;
+  max-width: 1000px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the page */
+}
+
+.tasks-page h1 {
+  font-size: 2rem;
+  color: #0747a6;
+  margin-bottom: 20px;
+  text-align: center; /* Center the header */
+}
+
+/* Filter Section */
+.filter-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.search-bar,
+.priority-filter {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-bar {
+  width: 60%;
+}
+
+.priority-filter {
+  width: 40%;
+}
+
+/* Tasks List Styling */
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .tasks-page {
+    padding: 15px; /* Reduce padding */
+  }
+
+  .filter-section {
+    flex-direction: column; /* Stack filters on smaller screens */
+    gap: 10px;
+  }
+
+  .search-bar,
+  .priority-filter {
+    width: 100%; /* Make the filters full-width on small screens */
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+
+  .tasks-page h1 {
+    font-size: 1.8rem; /* Slightly smaller header for mobile */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .tasks-page {
+    padding: 10px; /* Even smaller padding */
+  }
+
+  .search-bar,
+  .priority-filter {
+    font-size: 0.85rem; /* Further reduce font size for mobile */
+    padding: 6px; /* Smaller padding */
+  }
+
+  .tasks-page h1 {
+    font-size: 1.6rem; /* Further reduce header size */
+  }
+}
