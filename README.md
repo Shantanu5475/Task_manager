@@ -1,9 +1,9 @@
 
-# 📝 To-Do React App
+# 📝 Task Manager React App
 
-A powerful and easy-to-use To-Do application built with React to help users manage tasks efficiently. This application features intuitive UI, customizable task management, and persistent data storage for seamless task tracking.
+An easy-to-use Task Manager application built with React to help users manage tasks efficiently. This application features intuitive UI, customizable task management, and persistent data storage for seamless task tracking.
 
-![Todo App Screenshot](path/to/screenshot.png) <!-- Optional: Add a screenshot of the app here -->
+
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -18,7 +18,7 @@ A powerful and easy-to-use To-Do application built with React to help users mana
 - [License](#license)
 
 ## Overview
-This To-Do App empowers users to organize their tasks with customizable options for setting priorities, due dates, and more. With drag-and-drop sorting, automatic overdue tracking, and task persistence via local storage, it provides an optimal solution for personal task management.
+This Task Manager App empowers users to organize their tasks with customizable options for setting priorities, due dates, and more. With  automatic overdue tracking, and task persistence via local storage, it provides an optimal solution for personal task management.
 
 ## ✨ Features
 - **🌟 Task Creation**: Add new tasks with a title, description, priority level, and due date.
@@ -27,7 +27,6 @@ This To-Do App empowers users to organize their tasks with customizable options 
 - **🔍 Task Filtering & Search**: Quickly filter tasks by priority or search by title.
 - **📌 Task Categories**: Organize tasks into Upcoming, Completed, and Overdue categories for better task visibility.
 - **💾 Persistent Storage**: Save tasks in local storage to retain data across browser sessions.
-- **💪 Drag-and-Drop Sorting**: Reorder tasks interactively with drag-and-drop functionality.
 - **🌐 Responsive Design**: Optimized for all devices, ensuring usability on desktops, tablets, and mobile devices.
 
 ## 🚀 Getting Started
@@ -42,8 +41,9 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/todo-react-app.git
-   cd todo-react-app
+   
+   git clone https://github.com/your-username/Task_manager.git
+   cd Task_manager
    ```
 
 2. **Install dependencies**:
@@ -101,5 +101,4 @@ src/
 - **Task Reminders**: Send notifications for tasks nearing their due dates.
 - **Categories & Tags**: Enable users to categorize and label tasks.
 - **Dark Mode**: Add a dark mode option for better user experience at night.
-- **Priority-Based Sorting**: Sort tasks automatically based on priority and due date.
 
