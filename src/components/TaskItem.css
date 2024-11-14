@@ -10,9 +10,6 @@
   transition: background-color 0.3s, transform 0.2s;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  max-width: 100%;
-  word-wrap: break-word; /* Ensure long text doesn't overflow */
 }
 
 /* Card Style when Dragging */
@@ -157,54 +154,4 @@
 
 .cancel-button:hover {
   background-color: #b12c35;
-}
-
-/* Responsive Adjustments */
-
-/* For tablets and smaller devices */
-@media (max-width: 768px) {
-  .task-item {
-    padding: 15px; /* Reduce padding for smaller screens */
-  }
-
-  .task-title {
-    font-size: 1.1em; /* Slightly smaller title */
-  }
-
-  .task-description {
-    font-size: 0.85em; /* Adjust description font size */
-  }
-
-  .task-meta {
-    flex-direction: column; /* Stack metadata vertically on small screens */
-    align-items: flex-start;
-  }
-
-  .task-priority {
-    margin-bottom: 5px; /* Space out the priority labels */
-  }
-}
-
-/* For mobile screens */
-@media (max-width: 480px) {
-  .task-item {
-    padding: 12px; /* Even smaller padding */
-    margin: 8px 0; /* Reduce card margins */
-  }
-
-  .task-title {
-    font-size: 1em; /* Further reduce title size */
-  }
-
-  .task-description {
-    font-size: 0.8em; /* Reduce description size */
-  }
-
-  .task-meta {
-    font-size: 0.75em; /* Make metadata font smaller */
-  }
-
-  .edit-input, .save-button, .cancel-button, .edit-button {
-    font-size: 0.8em; /* Smaller font size for input fields and buttons */
-  }
 }

@@ -1,6 +1,6 @@
 /* Sidebar Styling */
 .sidebar {
-  position: fixed; /* Keeps the sidebar fixed */
+  position: fixed; /* Makes the sidebar fixed */
   top: 0;
   left: 0;
   width: 250px;
@@ -14,10 +14,8 @@
   overflow: hidden;
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
   z-index: 1000; /* Ensures the sidebar is on top */
-  transition: transform 0.3s ease-in-out;
 }
 
-/* Sidebar Logo Styling */
 .sidebar__logo {
   display: flex;
   align-items: center;
@@ -34,7 +32,6 @@
   border-radius: 8px;
 }
 
-/* Navigation Styling */
 .sidebar__nav ul {
   list-style: none;
   padding: 0;
@@ -104,72 +101,4 @@
   margin-left: 250px; /* Matches the sidebar width */
   padding: 20px;
   box-sizing: border-box;
-  transition: margin-left 0.3s ease-in-out;
-}
-
-/* Responsive Adjustments */
-
-/* Tablet and Smaller Screens (max-width: 768px) */
-@media (max-width: 768px) {
-  /* Collapse sidebar to hidden by default */
-  .sidebar {
-    transform: translateX(-250px);
-  }
-  
-  /* Make the sidebar visible when toggled */
-  .sidebar.active {
-    transform: translateX(0);
-  }
-
-  /* Adjust main content when sidebar is hidden */
-  .main-content {
-    margin-left: 0;
-  }
-
-  /* Hamburger menu icon */
-  .hamburger-menu {
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    z-index: 1100;
-    font-size: 1.5rem;
-    background-color: #0747a6;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    cursor: pointer;
-  }
-}
-
-/* Mobile Screens (max-width: 480px) */
-@media (max-width: 480px) {
-  /* Sidebar width adjustment for smaller screens */
-  .sidebar {
-    width: 200px;
-  }
-
-  /* Adjust main content padding on mobile */
-  .main-content {
-    padding: 10px;
-  }
-
-  .sidebar__logo h2 {
-    font-size: 1.2rem;
-    padding: 8px 10px;
-  }
-
-  .sidebar__nav ul li a {
-    font-size: 1rem;
-    padding: 8px;
-  }
-
-  .sidebar__profile img {
-    width: 35px;
-    height: 35px;
-  }
-
-  .sidebar__profile span {
-    font-size: 1rem;
-  }
 }
