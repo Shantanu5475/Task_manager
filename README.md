@@ -89,4 +89,8 @@ Ensure you have the following installed:
 ## Live Demo Of the Application
 https://drive.google.com/file/d/1PA4sGRDcl0lfnNmd2xksdh8G9g7haHc9/view?usp=drive_link
 
-Just copy and paste the link and you can view a video that shows all the functionalities and a quick go through of the app. 
+Just copy and paste the link and you can view a video that shows all the functionalities and a quick go through of the app.
+
+
+## Link to the deployed app-
+https://task-manager-axl7.onrender.com
