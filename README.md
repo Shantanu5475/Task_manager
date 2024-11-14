@@ -12,7 +12,8 @@ An easy-to-use Task Manager application built with React to help users manage ta
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#roadmap--future-enhancements)
+- [Future Enhancements](#future-enhancements)
+- [Live Demo](#Live-Demo)
 
 
 ## Overview
@@ -85,3 +86,7 @@ Ensure you have the following installed:
 - **Categories & Tags**: Enable users to categorize and label tasks.
 - **Dark Mode**: Add a dark mode option for better user experience at night.
 
+## Live Demo Of the Application
+https://drive.google.com/file/d/1PA4sGRDcl0lfnNmd2xksdh8G9g7haHc9/view?usp=drive_link
+
+Just copy and paste the link and you can view a video that shows all the functionalities and a quick go through of the app. 
