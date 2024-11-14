@@ -11,11 +11,9 @@ An easy-to-use Task Manager application built with React to help users manage ta
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Roadmap & Future Enhancements](#roadmap--future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+- [Future Enhancements](#roadmap--future-enhancements)
+
 
 ## Overview
 This Task Manager App empowers users to organize their tasks with customizable options for setting priorities, due dates, and more. With  automatic overdue tracking, and task persistence via local storage, it provides an optimal solution for personal task management.
@@ -73,22 +71,7 @@ Ensure you have the following installed:
    - **Completed**: Tasks marked as done.
    - **Overdue**: Tasks that have exceeded their due date.
 
-## 📁 Project Structure
 
-```
-src/
-├── components/               # Contains all reusable UI components
-│   ├── TaskItem.js           # Single task item component
-│   ├── TaskList.js           # Task list component displaying all tasks
-│   └── AddTaskForm.js        # Form component for adding new tasks
-├── hooks/
-│   └── useLocalStorage.js    # Custom hook for local storage management
-├── utils/
-│   └── dateHelpers.js        # Helper functions for handling date logic
-├── App.js                    # Main app component
-├── index.js                  # Entry point for rendering the app
-└── styles/                   # CSS files for styling
-```
 
 ## 🛠️ Technologies Used
 - **React** - for building the user interface
@@ -96,7 +79,7 @@ src/
 - **React-Hot-Toast** - to display notifications
 - **Local Storage** - to persist task data across page reloads
 
-## 🚧 Roadmap & Future Enhancements
+## Future Enhancements
 - **Authentication**: Allow users to log in and save tasks to a personal account.
 - **Task Reminders**: Send notifications for tasks nearing their due dates.
 - **Categories & Tags**: Enable users to categorize and label tasks.
