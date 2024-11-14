@@ -3,8 +3,7 @@ Ans-Overall it took me 7-8 hours to complete the coding test.
 
 Q-What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
-
-One of the most useful features added in the latest version of React (React 18) is automatic batching of updates. This allows multiple state updates to be batched together, reducing unnecessary re-renders and improving performance.
+Ans- One of the most useful features added in the latest version of React (React 18) is automatic batching of updates. This allows multiple state updates to be batched together, reducing unnecessary re-renders and improving performance.
 
 Here’s a simple example demonstrating automatic batching in a manager app:
 
@@ -28,10 +27,8 @@ In this example, i used upcomingTasks allTasks and FilteredTasks, all updates in
 
 
 
-
-
 Q-How would you track down a performance issue in production? Have you ever had to do this?
-Optimize Queries: If dealing with a large dataset (like 10000+ tasks), Performing operation on that data will get complex(such as search ).
+Ans- Optimize Queries: If dealing with a large dataset (like 10000+ tasks), Performing operation on that data will get complex(such as search ).
 
 
 
